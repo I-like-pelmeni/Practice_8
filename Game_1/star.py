@@ -1,6 +1,6 @@
 import pygame
 from pygame.sprite import Sprite
-from settings_1 import Settings
+from settings import Settings
 
 class Star(Sprite):
 
@@ -9,7 +9,7 @@ class Star(Sprite):
         self.screen = ai_game.screen
         self.settings - ai_game.setteings
 
-        self.image = pygame.image.load('images/star.png')
+        self.image = pygame.image.load('images/star.jpg')
         self.rect = self.image.get_rect()
 
         self.rect.x = self.rect.width
